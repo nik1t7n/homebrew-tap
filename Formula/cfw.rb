@@ -1,25 +1,25 @@
 class Cfw < Formula
   desc "Local-first context firewall for coding agents"
   homepage "https://github.com/nik1t7n/context-firewall"
-  version "0.1.0"
+  version "0.2.0"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/nik1t7n/context-firewall/releases/download/v0.1.0/cfw-aarch64-apple-darwin.tar.xz"
-      sha256 "7b2ef2eb240fac8f6846a2359659ed9b80ca919161b87cecb8bc3de64ce45b08"
+      url "https://github.com/nik1t7n/context-firewall/releases/download/v0.2.0/cfw-aarch64-apple-darwin.tar.xz"
+      sha256 "0ae93869d50dcd9eb5c1fba45a0c1ba064b57710f12c6776fdd31588db44d1fd"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/nik1t7n/context-firewall/releases/download/v0.1.0/cfw-x86_64-apple-darwin.tar.xz"
-      sha256 "d03ccb27d6cc3889c0e210330d65c192c0481f23189ad74b00183a0d703e01a3"
+      url "https://github.com/nik1t7n/context-firewall/releases/download/v0.2.0/cfw-x86_64-apple-darwin.tar.xz"
+      sha256 "ffe3b26a441a863e4f49a174f9be33cdf7a062f22ba6fcf4ee8d33cb78ff0d16"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/nik1t7n/context-firewall/releases/download/v0.1.0/cfw-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "725eaf157abdf4dc77cf0280c69841f2162d793f6e92fe30650afc7766b46061"
+      url "https://github.com/nik1t7n/context-firewall/releases/download/v0.2.0/cfw-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "3c9b4019e7b8d716a4eccef0faaa490198ce9404e2dea5cf1bf6a74f572209da"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/nik1t7n/context-firewall/releases/download/v0.1.0/cfw-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "4d82e895f3da1bfc3fe5485ba3b17f4d75697deb43d9706108e604d787d7eb7c"
+      url "https://github.com/nik1t7n/context-firewall/releases/download/v0.2.0/cfw-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "06465d3fea784aef332095b17b5c287988d4c2e5e8e97a5c2597d360aa823574"
     end
   end
   license "Apache-2.0"
